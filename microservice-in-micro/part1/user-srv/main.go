@@ -3,11 +3,11 @@ package main
 import (
 	"fmt"
 
-	"github.com/micro-in-cn/tutorials/microservice-in-micro/part1/user-srv/basic"
-	"github.com/micro-in-cn/tutorials/microservice-in-micro/part1/user-srv/basic/config"
-	"github.com/micro-in-cn/tutorials/microservice-in-micro/part1/user-srv/handler"
-	"github.com/micro-in-cn/tutorials/microservice-in-micro/part1/user-srv/model"
-	s "github.com/micro-in-cn/tutorials/microservice-in-micro/part1/user-srv/proto/user"
+	"part1/user-srv/basic"
+	"part1/user-srv/basic/config"
+	"part1/user-srv/handler"
+	"part1/user-srv/model"
+	s "part1/proto/user"
 	"github.com/micro/cli"
 	"github.com/micro/go-micro"
 	"github.com/micro/go-micro/registry"

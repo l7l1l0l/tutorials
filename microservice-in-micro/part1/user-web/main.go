@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/micro-in-cn/tutorials/microservice-in-micro/part1/user-web/basic"
-	"github.com/micro-in-cn/tutorials/microservice-in-micro/part1/user-web/basic/config"
-	"github.com/micro-in-cn/tutorials/microservice-in-micro/part1/user-web/handler"
+	"part1/user-web/basic"
+	"part1/user-web/basic/config"
+	"part1/user-web/handler"
 	"github.com/micro/cli"
 	"github.com/micro/go-micro/registry"
 	"github.com/micro/go-micro/registry/etcd"
