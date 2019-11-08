@@ -1,4 +1,5 @@
-CREATE DATABASE `micro_book_mall` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_bin */;
+/*CREATE DATABASE `micro_book_mall`*/ /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_bin */;
+CREATE DATABASE IF NOT EXISTS `micro_book_mall` /*增加判断*/
 
 CREATE TABLE `inventory`
 (
