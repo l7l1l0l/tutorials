@@ -242,8 +242,8 @@ func main() {
 
 ### 创建User表
 
-我们选用Mysql作为数据库，以下是建表语句，完整sql可以在[文档](./docs/schema.sql)目录找到：
-
+我们选用Mysql作为数据库，以下是在建表语句，完整sql可以在[文档](./docs/schema.sql)目录找到：  
+数据库:micro_book_mall （未创建，请先行创建该数据库）
 ```sql
 CREATE TABLE `user`
 (
@@ -669,6 +669,17 @@ func registryOptions(ops *registry.Options) {
 
 好，程序写完了，下面我们启动它。
 
+**请先安装并启动etcd（若已启动请忽略，更合理的方式应该是使用docker来启动）**
+```bash
+$ mkdir -p $GOPATH/src/github.com/coreos
+$ cd !$
+$ git clone https://github.com/coreos/etcd.git
+$ cd etcd
+$ ./build
+$ ./bin/etcd
+```
+
+**启动程序**
 ```bash
 $ go run main.go plugin.go
 
