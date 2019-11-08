@@ -6,10 +6,10 @@ import (
 	"net/http"
 	"time"
 
-	auth "github.com/micro-in-cn/tutorials/microservice-in-micro/part2/auth/proto/auth"
-	us "github.com/micro-in-cn/tutorials/microservice-in-micro/part2/user-srv/proto/user"
 	"github.com/micro/go-micro/client"
 	"github.com/micro/go-micro/util/log"
+	auth "part2/proto/auth"
+	us "part2/proto/user"
 )
 
 var (

@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/dgrijalva/jwt-go"
-	"github.com/micro-in-cn/tutorials/microservice-in-micro/part2/basic/config"
+	"part2/basic/config"
 )
 
 // createTokenClaims Claims

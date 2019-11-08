@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	proto "github.com/micro-in-cn/tutorials/microservice-in-micro/part2/user-srv/proto/user"
+	proto "part2/proto/user"
 )
 
 var (

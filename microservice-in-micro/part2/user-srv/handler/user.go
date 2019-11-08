@@ -3,9 +3,9 @@ package handler
 import (
 	"context"
 
-	us "github.com/micro-in-cn/tutorials/microservice-in-micro/part2/user-srv/model/user"
-	s "github.com/micro-in-cn/tutorials/microservice-in-micro/part2/user-srv/proto/user"
 	"github.com/micro/go-micro/util/log"
+	s "part2/proto/user"
+	us "part2/user-srv/model/user"
 )
 
 type Service struct{}
