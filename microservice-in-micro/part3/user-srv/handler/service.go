@@ -4,8 +4,8 @@ import (
 	"context"
 	"github.com/micro/go-micro/util/log"
 
-	us "github.com/micro-in-cn/tutorials/microservice-in-micro/part3/user-srv/model/user"
-	s "github.com/micro-in-cn/tutorials/microservice-in-micro/part3/user-srv/proto/user"
+	s "part3/proto/user"
+	us "part3/user-srv/model/user"
 )
 
 type Service struct{}

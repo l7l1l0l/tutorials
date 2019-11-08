@@ -3,16 +3,16 @@ package main
 import (
 	"fmt"
 
-	"github.com/micro-in-cn/tutorials/microservice-in-micro/part3/auth/handler"
-	"github.com/micro-in-cn/tutorials/microservice-in-micro/part3/auth/model"
-	s "github.com/micro-in-cn/tutorials/microservice-in-micro/part3/auth/proto/auth"
-	"github.com/micro-in-cn/tutorials/microservice-in-micro/part3/basic"
-	"github.com/micro-in-cn/tutorials/microservice-in-micro/part3/basic/config"
 	"github.com/micro/cli"
 	"github.com/micro/go-micro"
 	"github.com/micro/go-micro/registry"
 	"github.com/micro/go-micro/registry/etcd"
 	"github.com/micro/go-micro/util/log"
+	"part3/auth/handler"
+	"part3/auth/model"
+	"part3/basic"
+	"part3/basic/config"
+	s "part3/proto/auth"
 )
 
 func main() {

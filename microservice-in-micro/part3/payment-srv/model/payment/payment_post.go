@@ -4,11 +4,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/micro-in-cn/tutorials/microservice-in-micro/part3/basic/common"
-	"github.com/micro-in-cn/tutorials/microservice-in-micro/part3/basic/db"
-	invS "github.com/micro-in-cn/tutorials/microservice-in-micro/part3/inventory-srv/proto/inventory"
-	ordS "github.com/micro-in-cn/tutorials/microservice-in-micro/part3/orders-srv/proto/orders"
 	"github.com/micro/go-micro/util/log"
+	"part3/basic/common"
+	"part3/basic/db"
+	invS "part3/proto/inventory"
+	ordS "part3/proto/orders"
 )
 
 // PayOrder 支付订单

@@ -1,7 +1,7 @@
 package model
 
 import (
-	"github.com/micro-in-cn/tutorials/microservice-in-micro/part3/orders-srv/model/orders"
+	"part3/orders-srv/model/orders"
 )
 
 // Init 初始化模型层

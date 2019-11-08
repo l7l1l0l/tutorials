@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/micro-in-cn/tutorials/microservice-in-micro/part3/basic"
-	"github.com/micro-in-cn/tutorials/microservice-in-micro/part3/basic/config"
-	"github.com/micro-in-cn/tutorials/microservice-in-micro/part3/payment-web/handler"
+	"part3/basic"
+	"part3/basic/config"
+	"part3/payment-web/handler"
 	"github.com/micro/cli"
 	"github.com/micro/go-micro/registry"
 	"github.com/micro/go-micro/registry/etcd"

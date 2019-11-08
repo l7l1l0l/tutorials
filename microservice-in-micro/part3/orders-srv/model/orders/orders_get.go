@@ -1,9 +1,9 @@
 package orders
 
 import (
-	"github.com/micro-in-cn/tutorials/microservice-in-micro/part3/basic/db"
-	proto "github.com/micro-in-cn/tutorials/microservice-in-micro/part3/orders-srv/proto/orders"
 	"github.com/micro/go-micro/util/log"
+	"part3/basic/db"
+	proto "part3/proto/orders"
 )
 
 // GetOrder 获取订单

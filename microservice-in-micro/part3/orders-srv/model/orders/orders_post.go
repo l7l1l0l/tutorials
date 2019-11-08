@@ -3,10 +3,10 @@ package orders
 import (
 	"context"
 
-	"github.com/micro-in-cn/tutorials/microservice-in-micro/part3/basic/common"
-	"github.com/micro-in-cn/tutorials/microservice-in-micro/part3/basic/db"
-	invS "github.com/micro-in-cn/tutorials/microservice-in-micro/part3/inventory-srv/proto/inventory"
 	"github.com/micro/go-micro/util/log"
+	"part3/basic/common"
+	"part3/basic/db"
+	invS "part3/proto/inventory"
 )
 
 // New 新增订单

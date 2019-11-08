@@ -3,9 +3,9 @@ package handler
 import (
 	"context"
 
-	"github.com/micro-in-cn/tutorials/microservice-in-micro/part3/payment-srv/model/payment"
-	proto "github.com/micro-in-cn/tutorials/microservice-in-micro/part3/payment-srv/proto/payment"
 	"github.com/micro/go-micro/util/log"
+	"part3/payment-srv/model/payment"
+	proto "part3/proto/payment"
 )
 
 var (

@@ -640,6 +640,8 @@ $ go run main.go plugin.go
 
 限于篇幅，大家使用postman验证结果，在postman中导入请求模板[**postman_collection.json**](../docs/postman_collection.json)即可。
 
+**注意：postman的顺序是登录和登出，然后测试order和payment的时候都会报“非法请求”，必须要是登陆状态**
+
 以下面步骤验证：
 
 - 登录 http://127.0.0.1:8080/user/login

@@ -5,12 +5,12 @@ import (
 	"encoding/json"
 	"net/http"
 	"time"
-	
-	auth "github.com/micro-in-cn/tutorials/microservice-in-micro/part3/auth/proto/auth"
-	"github.com/micro-in-cn/tutorials/microservice-in-micro/part3/plugins/session"
-	us "github.com/micro-in-cn/tutorials/microservice-in-micro/part3/user-srv/proto/user"
+
 	"github.com/micro/go-micro/client"
 	"github.com/micro/go-micro/util/log"
+	"part3/plugins/session"
+	auth "part3/proto/auth"
+	us "part3/proto/user"
 )
 
 var (

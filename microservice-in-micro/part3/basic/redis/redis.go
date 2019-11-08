@@ -4,7 +4,7 @@ import (
 	"sync"
 
 	"github.com/go-redis/redis"
-	"github.com/micro-in-cn/tutorials/microservice-in-micro/part3/basic/config"
+	"part3/basic/config"
 	"github.com/micro/go-micro/util/log"
 )
 

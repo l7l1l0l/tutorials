@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"sync"
 
-	invS "github.com/micro-in-cn/tutorials/microservice-in-micro/part3/inventory-srv/proto/inventory"
-	proto "github.com/micro-in-cn/tutorials/microservice-in-micro/part3/orders-srv/proto/orders"
 	"github.com/micro/go-micro/client"
+	invS "part3/proto/inventory"
+	proto "part3/proto/orders"
 )
 
 var (

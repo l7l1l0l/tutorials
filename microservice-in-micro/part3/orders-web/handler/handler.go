@@ -7,12 +7,12 @@ import (
 	"strconv"
 	"time"
 
-	auth "github.com/micro-in-cn/tutorials/microservice-in-micro/part3/auth/proto/auth"
-	invS "github.com/micro-in-cn/tutorials/microservice-in-micro/part3/inventory-srv/proto/inventory"
-	orders "github.com/micro-in-cn/tutorials/microservice-in-micro/part3/orders-srv/proto/orders"
-	"github.com/micro-in-cn/tutorials/microservice-in-micro/part3/plugins/session"
 	"github.com/micro/go-micro/client"
 	"github.com/micro/go-micro/util/log"
+	"part3/plugins/session"
+	auth "part3/proto/auth"
+	invS "part3/proto/inventory"
+	orders "part3/proto/orders"
 )
 
 var (

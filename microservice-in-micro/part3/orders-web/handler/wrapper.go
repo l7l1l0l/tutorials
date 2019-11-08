@@ -4,10 +4,10 @@ import (
 	"context"
 	"net/http"
 
-	auth "github.com/micro-in-cn/tutorials/microservice-in-micro/part3/auth/proto/auth"
-	"github.com/micro-in-cn/tutorials/microservice-in-micro/part3/basic/common"
-	"github.com/micro-in-cn/tutorials/microservice-in-micro/part3/plugins/session"
 	"github.com/micro/go-micro/util/log"
+	"part3/basic/common"
+	"part3/plugins/session"
+	auth "part3/proto/auth"
 )
 
 // AuthWrapper 认证wrapper

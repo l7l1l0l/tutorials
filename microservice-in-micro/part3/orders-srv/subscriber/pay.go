@@ -3,9 +3,9 @@ package subscriber
 import (
 	"context"
 
-	"github.com/micro-in-cn/tutorials/microservice-in-micro/part3/orders-srv/model/orders"
-	payS "github.com/micro-in-cn/tutorials/microservice-in-micro/part3/payment-srv/proto/payment"
 	"github.com/micro/go-micro/util/log"
+	"part3/orders-srv/model/orders"
+	payS "part3/proto/payment"
 )
 
 var (

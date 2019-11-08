@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/micro-in-cn/tutorials/microservice-in-micro/part3/basic/common"
-	invS "github.com/micro-in-cn/tutorials/microservice-in-micro/part3/inventory-srv/proto/inventory"
-	ordS "github.com/micro-in-cn/tutorials/microservice-in-micro/part3/orders-srv/proto/orders"
 	"github.com/micro/go-micro"
 	"github.com/micro/go-micro/client"
+	"part3/basic/common"
+	invS "part3/proto/inventory"
+	ordS "part3/proto/orders"
 )
 
 var (
